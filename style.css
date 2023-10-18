@@ -1,0 +1,124 @@
+#btn{
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.content{
+    background-color: orangered;
+    height: 400px;
+}
+#btn1{
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    border: none;
+}
+.service{
+    height: 500px; 
+}
+.row{
+    display: flex;
+    
+}
+.container{
+position: fixed ;
+top: 0px;
+}
+.img-container img {
+    height:100%;
+    width: 100%;
+    
+object-fit:cover;
+}
+.download-container {
+    background-color: black;
+    height: 20rem;
+
+}
+.download-container button {
+    margin-left:40rem;
+}
+.input {
+    margin: 0 auto;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-left: 40%;
+    height: 3rem;
+}
+.btn-submit {
+    border-radius: 15px;
+    margin-right:30rem;
+    width: 20rem;
+    height: 2.5rem;
+    background-color: orange;
+    margin-left:36%;
+    border: 0;
+
+} 
+.form-container {
+    height:50rem;
+    /* background-color: blue; */
+}
+.form-container h1:after ,.service-container h1:after {
+    /* this is the border */
+    content: "";
+    display: block;
+    width: 3em;
+    /* margin-top:-2rem; */
+    max-width: 70%;
+    border-bottom: 0.1em solid red;
+    margin: 1em auto 0;
+}
+.intro-container h1:after {
+    content: "";
+        display: block;
+        width: 3em;
+        /* margin-top:-2rem; */
+        max-width: 70%;
+        border-bottom: 0.1em solid white;
+        margin: 1em auto 0;
+}
+ .welcome-container h1:after{
+    content: "";
+        display: block;
+        width: 3em;
+        /* margin-top:-2rem; */
+        max-width: 70%;
+        border-bottom: 0.1em solid red;
+        margin-top: 2rem;
+        margin-left: 12rem;
+        /* margin: 1em auto; */
+ }
+ .img-div:hover {
+    background-color: blue;
+ }
+
+ .col-4 {
+            position: relative;
+            
+ }
+ .overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color:orangered;
+ }
+
+ .col-4:hover .overlay {
+     opacity: 0.5;
+ }
+ 
+.col-1 p:hover {
+    color: red;
+
+}
+.col-1 a {
+    text-decoration: none;
+}
